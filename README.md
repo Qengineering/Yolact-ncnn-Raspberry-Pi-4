@@ -31,5 +31,6 @@ result_elephant.png <br/>
 result_zebra.png <br/>
 Yolact.cpb <br/>
 yolact.cpp <br/>
-yolact.bin  (download this file from: https://drive.google.com/file/d/1vu3GGOEWh-jmedM-cvoqzhGzaZaOQB9k )<br/>
+yolact.bin ( download this file from: [Gdrive](https://drive.google.com/file/d/1vu3GGOEWh-jmedM-cvoqzhGzaZaOQB9k) )<br/>
 yolact.param <br/>
+Many thanks to [nihui](https://github.com/nihui/) again!
