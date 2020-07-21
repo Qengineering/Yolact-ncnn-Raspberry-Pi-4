@@ -2,7 +2,7 @@
 ![output image]( https://qengineering.eu/images/Yolact_result_zebra.png )
 
 ## Yolact with the ncnn framework.
-The frame rate is about 3.5 sec per image<br/>
+The frame rate is about 3.5 sec per image (RPi overclocked to 1950 MHz)<br/>
 Paper: https://openaccess.thecvf.com/content_ICCV_2019/papers/Bolya_YOLACT_Real-Time_Instance_Segmentation_ICCV_2019_paper.pdf <br/>
 Size: 550x550 <br/><br/>
 Special made for a bare Raspberry Pi see https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html <br/>
@@ -31,6 +31,6 @@ result_elephant.png <br/>
 result_zebra.png <br/>
 Yolact.cpb <br/>
 yolact.cpp <br/>
-yolact.bin ( download this file from: [Gdrive](https://drive.google.com/file/d/1vu3GGOEWh-jmedM-cvoqzhGzaZaOQB9k) )<br/>
+yolact.bin (download this file from [Gdrive](https://drive.google.com/file/d/1vu3GGOEWh-jmedM-cvoqzhGzaZaOQB9k) )<br/>
 yolact.param <br/>
 Many thanks to [nihui](https://github.com/nihui/) again!
