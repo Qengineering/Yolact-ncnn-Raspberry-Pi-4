@@ -1,7 +1,7 @@
 # Yolact-ncnn on Raspberry Pi 64 bits
 ![output image]( https://qengineering.eu/images/Yolact_result_zebra.png )
 
-## Yolact on bare Raspberry Pi 4 with the ncnn framework.
+## Yolact with the ncnn framework.
 The frame rate is about 3.5 sec per image<br/>
 Paper: https://openaccess.thecvf.com/content_ICCV_2019/papers/Bolya_YOLACT_Real-Time_Instance_Segmentation_ICCV_2019_paper.pdf <br/>
 Size: 550x550 <br/><br/>
@@ -22,19 +22,14 @@ Remove master.zip and README.md as they are no longer needed. <br/>
 $ rm master.zip <br/>
 $ rm README.md <br/> <br/>
 Your *MyDir* folder must now look like this: <br/> 
-Face_1.jpg <br/>
-Face_2.jpg <br/>
-Face_3.jpg <br/>
-Face_Mask_Video.mp4 <br/>
-MaskUltra.cpb <br/>
-mask_ultra.cpp <br/>
-UltraFace.cpp <br/>
-UltraFace.hpp <br/>
-RFB-320.bin <br/>
-RFB-320.param <br/>
-slim_320.bin <br/>
-slim_320.param <br/>
- <br/>
-The RFB-320 model recognizes slightly more faces than slim_320 at the expense of a little bit of speed. It is up to you.<br/>
-Note that the compilation of the Paddle Lite framework in your application can take minutes (> 3 min). <br/> <br/>
-See the video at https://youtu.be/LDPXgJv3wAk
+dog.jpg <br/>
+elephant.jpeg <br/>
+girafe.jpeg <br/>
+mumbai.jpg <br/>
+onyx.jpeg <br/>
+result_elephant.png <br/>
+result_zebra.png <br/>
+Yolact.cpb <br/>
+yolact.cpp <br/>
+yolact.bin <br/>
+yolact.param <br/>
