@@ -16,7 +16,7 @@ To run the application, you have to:
 To extract and run the network in Code::Blocks <br/>
 $ mkdir *MyDir* <br/>
 $ cd *MyDir* <br/>
-$ wget https://github.com/Qengineering/Face-Mask-Detection-Raspberry-Pi-64-bits/archive/master.zip <br/>
+$ wget https://github.com/Qengineering/Yolact-ncnn/archive/master.zip <br/>
 $ unzip -j master.zip <br/>
 Remove master.zip and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>
@@ -31,5 +31,5 @@ result_elephant.png <br/>
 result_zebra.png <br/>
 Yolact.cpb <br/>
 yolact.cpp <br/>
-yolact.bin <br/>
+yolact.bin  (download this file from: https://drive.google.com/file/d/1vu3GGOEWh-jmedM-cvoqzhGzaZaOQB9k )<br/>
 yolact.param <br/>
