@@ -4,12 +4,19 @@
 ## Yolact with the ncnn framework. <br/><br/>
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
 The frame rate is about 3.5 sec per image (RPi overclocked to 1950 MHz)<br/>
-Special made for a bare Raspberry Pi see [Q-engineering deep learning examples](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html) <br/>
+Special made for a bare Raspberry Pi see [Q-engineering deep learning examples](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html) <br/><br/>
+Paper: https://openaccess.thecvf.com/content_ICCV_2019/papers/Bolya_YOLACT_Real-Time_Instance_Segmentation_ICCV_2019_paper.pdf <br/>
 
 ------------
 
-Paper: https://openaccess.thecvf.com/content_ICCV_2019/papers/Bolya_YOLACT_Real-Time_Instance_Segmentation_ICCV_2019_paper.pdf <br/>
-Size: 550x550 <br/><br/>
+## Benchmark.
+| Model  | size | objects | mAP |  RPi 4 64-OS 1950 MHz |
+| ------------- | :-----:  | :-----:  | :-------------:  | :-------------: |
+| [YoloV5n](https://github.com/Qengineering/YoloV5-segmentation-ncnn-RPi4) | 640x640 nano| 80 | 28.0 | 1.4 - 2.0  FPS |
+| [YoloV5s](https://github.com/Qengineering/YoloV5-segmentation-ncnn-RPi4) | 640x640 small| 80 | 37.4 | 1.0 FPS | 
+| [YoloV5l](https://github.com/Qengineering/YoloV5-segmentation-ncnn-RPi4) | 640x640 large| 80 | 49.0 | 0.25 FPS | 
+| [YoloV5x](https://github.com/Qengineering/YoloV5-segmentation-ncnn-RPi4) | 640x640 x-large| 80 | 50.7 | 0.15 FPS |
+| Yoact | 550x550 | 80 | 28.2 | 0.28 FPS |
 
 ------------
 
